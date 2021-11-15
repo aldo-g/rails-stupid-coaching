@@ -1,0 +1,56 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+$white: #FFFFFF;
+$font-stack: 'Roboto', sans-serif;
+
+body {
+  background: $white; // Using this variable
+  font-family: $font-stack;
+  font-weight: 300;
+}
+
+h1 {
+  font-weight: 500;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 16px;
+}
+
+#answer-p{
+  font-family: $font-stack;
+  font-weight: 500;
+}
+
+a {
+  color: #96AAD6;
+  text-decoration: none;
+}
+
+#submit-button {
+  background-color: #337AB7
+}
+
+.container {
+  border-left: 4px solid #DDDDDD;
+  padding: 0.1em 2em;
+  margin: 2em 0;
+}
+
+#answer {
+  background-color: #FFFFE1;
+  width: 80vw;
+}
+
+#submit-form {
+  display: flex;
+  width: 100%;
+  border-radius: 5px;
+}
+
+#submit-button {
+  color: white;
+  font-weight: 400;
+}
